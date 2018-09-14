@@ -146,6 +146,7 @@
       -webkit-animation-duration: 2s;
       visibility: visible;
   }
+/*to move gradually from one css style to another*/ 
   @keyframes slide {
     0% {
       opacity: 0;
@@ -166,6 +167,7 @@
       -webkit-transform: translateY(0%);
     }
   }
+/*to check max width and height of viewport and device and size below features accordingly*/
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
